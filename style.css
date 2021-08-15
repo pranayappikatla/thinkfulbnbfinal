@@ -105,6 +105,7 @@ form label {
 
 form select,
 form input {
+  justify-content: space-between;
   margin-bottom: 20px;
   width: 180px;
 }
