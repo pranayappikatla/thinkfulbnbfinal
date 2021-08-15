@@ -133,7 +133,24 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 800px) {
+
+  form {
+    display: flex;
+  }
+
+  form div {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  form button {
+    font-size: 24px;
+    padding: 15px;
+    height: 10%;
+    width: 13%;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -152,31 +169,14 @@ footer p {
     color: #bdbdbd;
   }
 
-  form {
-    display: flex;
-  }
-
-  form div {
-    margin: 0 auto;
-    flex-direction: column;
-  }
-
-  form button {
-    font-size: 24px;
-    padding: 15px;
-    height: 10%;
-    width: 13%;
-  }
-
   main img {
     width: 100%;
   }
-
+  
   .group {
     flex-direction: row;
     align-items: center;
   }
-
   .logo {
     margin: 14px 0 14px 20px;
     padding-top: 0;
